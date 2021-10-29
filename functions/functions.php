@@ -7,4 +7,11 @@ function dd($data){
     echo '</pre>';
 
 }
+
+function nightClub($age) : bool{
+   if($age>=21){
+       return true;
+   }
+   return false;
+}
 ?>
