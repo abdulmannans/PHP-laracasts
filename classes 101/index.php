@@ -12,11 +12,13 @@ class Task{
 
     }
 
-    public function complete(){
+    public function complete()
+    {
         $this->completed = true;
     }
 
-    public function isComplete(){
+    public function isComplete()
+    {
         return $this->completed;
     }
 }
